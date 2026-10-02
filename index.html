@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>yui-taro — Portfolio</title>
+  <meta name="description" content="ゲーム開発を学ぶ新人エンジニア yui-taro の制作記録。中華大戦、おねがい、寝て！、じゃんけん盆栽。">
+  <meta property="og:title" content="yui-taro — Portfolio">
+  <meta property="og:description" content="ゲーム開発を学ぶ、新人エンジニアの制作記録。">
+  <meta property="og:image" content="media/reel.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="works.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top">yui-taro</a>
+      <nav class="nav">
+        <a href="#works">Works</a>
+        <a href="#approach">Approach</a>
+        <a href="https://github.com/yui-taro" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <video class="hero-video" src="media/reel.mp4" poster="media/reel.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <p class="hero-label"><span>Portfolio</span><span id="heroYear"></span></p>
+        <h1 class="hero-title">ゲーム開発を学ぶ、<br>新人エンジニアの<br>制作記録。</h1>
+        <p class="hero-lead">企画・設計から実装、公開までを一通り経験するために、ゲームを作っています。<br>作品ごとに、作ったもの・工夫した点・学んだこと・次の課題をまとめました。</p>
+        <dl class="hero-facts">
+          <div><dt>Works</dt><dd id="factCount"></dd></div>
+          <div><dt>Stack</dt><dd id="factTech"></dd></div>
+          <div><dt>Updated</dt><dd id="factUpdated"></dd></div>
+        </dl>
+      </div>
+      <a class="scroll-cue" href="#works" aria-label="作品一覧へ"><span></span></a>
+    </section>
+
+    <section id="works" class="index wrap">
+      <header class="sec-head">
+        <h2 class="sec-title">Works</h2>
+        <p class="sec-sub">制作物一覧</p>
+      </header>
+      <ol class="index-list" id="indexList"></ol>
+    </section>
+
+    <div id="cases"></div>
+
+    <section id="approach" class="approach wrap">
+      <header class="sec-head">
+        <h2 class="sec-title">Approach</h2>
+        <p class="sec-sub">取り組んでいること</p>
+      </header>
+      <ol class="approach-list">
+        <li><span class="ap-no">01</span><h3>作品の核を、一文にしてから作る</h3><p>「戦い方が、そのまま料理の出来になる」のように、何を体験してもらう作品なのかを一文で言えるまで企画を詰めてから、設計に入るようにしています。</p></li>
+        <li><span class="ap-no">02</span><h3>AIエージェントと分担して開発する</h3><p>企画書・設計書の作成から実装、自動テストまで、Claude Code に任せる範囲と自分で判断する範囲の分け方を試しながら進めています。</p></li>
+        <li><span class="ap-no">03</span><h3>遊べる形で公開し、感想から直す</h3><p>ブラウザ版や配布ページを用意して実際に遊んでもらい、そこで見つかった問題を次の改善につなげています。</p></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-lead">ご覧いただき、ありがとうございました。</p>
+      <p class="footer-sub">まだ学び始めたところです。作品へのご意見・アドバイスをいただけると嬉しいです。</p>
+      <div class="footer-bottom">
+        <a class="footer-link" href="https://github.com/yui-taro" target="_blank" rel="noopener">github.com/yui-taro <span aria-hidden="true">↗</span></a>
+        <span>© yui-taro</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
