@@ -37,7 +37,7 @@ window.WORKS = [
     date: "2026.08",
     youtube: "",
     video: "media/kansei.mp4",
-    thumb: "media/kansei.jpg",
+    thumb: "media/kansei-title.jpg",
     links: [
       { label: "ブラウザで遊ぶ", url: "https://yui-taro.github.io/action-takagi/play/", primary: true },
       { label: "Windows版（v1.0.0）", url: "https://github.com/yui-taro/action-takagi/releases/tag/v1.0.0" },
@@ -65,7 +65,7 @@ window.WORKS = [
     date: "2026.09",
     youtube: "",
     video: "media/onegai.mp4",
-    thumb: "media/onegai.jpg",
+    thumb: "media/onegai-title.jpg",
     links: [
       { label: "Windows版を入手", url: "https://github.com/yui-taro/onegai-nete-game/releases", primary: true },
       { label: "プレイ動画（2分42秒）", url: "https://github.com/yui-taro/onegai-nete-game/tree/main/%E5%8B%95%E7%94%BB" },
@@ -92,7 +92,7 @@ window.WORKS = [
     date: "2026.08",
     youtube: "",
     video: "media/bonsai.mp4",
-    thumb: "media/bonsai.jpg",
+    thumb: "media/bonsai-title.jpg",
     links: [
       { label: "ブラウザで遊ぶ", url: "https://yui-taro.github.io/janken-bonsai/", primary: true },
       { label: "GitHub", url: "https://github.com/yui-taro/janken-bonsai" },
