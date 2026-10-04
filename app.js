@@ -50,11 +50,12 @@ function renderCase(w, i) {
       </header>
 
       <div class="screen">
+        ${youtubeId(w.youtube) || w.video ? `
         <button class="player" type="button" data-index="${i}" aria-label="${esc(w.title)} の紹介動画を再生">
           <img src="${esc(w.thumb)}" alt="${esc(w.title)} の紹介動画" loading="lazy">
           <span class="play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span>
           <span class="play-label" aria-hidden="true">Play video</span>
-        </button>
+        </button>` : `<img class="still" src="${esc(w.thumb)}" alt="${esc(w.title)} のゲーム画面" loading="lazy">`}
       </div>
 
       <div class="case-body">

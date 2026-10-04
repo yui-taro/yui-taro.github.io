@@ -166,3 +166,4 @@ a { color: inherit; }
 /* keep the reel atmospheric so game UI behind the copy never competes */
 .hero-video { opacity: .5; filter: saturate(.9) blur(1.5px); transform: scale(1.03); }
 .hero-shade { background: linear-gradient(90deg, rgba(12,13,15,.95) 0%, rgba(12,13,15,.7) 50%, rgba(12,13,15,.35) 100%), linear-gradient(0deg, rgba(12,13,15,.9) 0%, rgba(12,13,15,0) 50%); }
+.screen .still { width: 100%; height: 100%; object-fit: cover; }

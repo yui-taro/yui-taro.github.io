@@ -102,4 +102,30 @@ window.WORKS = [
     next: "スマホの縦画面でも遊べるレイアウトにすること。",
     theme: "bonsai",
   },
+  {
+    id: "yuirpg",
+    title: "yuiRPG",
+    kicker: "ターン制RPG",
+    catch: "6人から1人を選び、連勝を目指すブラウザRPG。",
+    about:
+      "JavaScript・HTML・CSS の学習を兼ねて作った、ブラウザで動くターン制RPGです。戦士・魔法使い・聖騎士など6人のキャラクターから1人を選び、ランダムに現れる敵とスキルを使って戦い、連勝数を伸ばします。AIエージェントと一緒に開発しました。",
+    points: [
+      "画面表示・入力・ゲームのルール・進行管理をクラスごとに分け、1か所の修正がほかに広がらない構成にした",
+      "キャラクターとスキルを JSON で管理し、読み込むときに名前の形式を変換。JSON の項目名が変わっても、直す場所が1か所で済むようにした",
+      "AIエージェント向けの開発メモ（AGENTS.md）とコードの書き方の指針を用意してから、AIと一緒に開発した",
+    ],
+    tech: ["JavaScript", "HTML", "CSS", "JSON"],
+    date: "2026.07",
+    youtube: "",
+    video: "",
+    thumb: "media/yuirpg-title.jpg",
+    links: [
+      { label: "ブラウザで遊ぶ", url: "https://yui-taro.github.io/yuiyuiRPG/", primary: true },
+      { label: "GitHub", url: "https://github.com/yui-taro/yuiyuiRPG" },
+    ],
+    // 流れ.md の「わかったこと」「次やること」から
+    learned: "処理を分けると修正の範囲が減ること、最初に要件を整理するとスケジュールが立てやすいこと。デザインは、かっこよさだけでなく、見やすさや操作性など使う人の目線に立つ必要があると学びました。",
+    next: "AIの使い方（学習効果の高い使い方や、質を上げるための指示の出し方）と、視認性を意識した意味のあるデザインを学ぶこと。",
+    theme: "#6b4c9a",
+  },
 ];
