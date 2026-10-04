@@ -61,7 +61,6 @@ function renderCase(w, i) {
           <dl>
             <div><dt>Category</dt><dd>${esc(w.kicker)}</dd></div>
             <div><dt>Year</dt><dd>${esc(w.date)}</dd></div>
-            <div><dt>Stack</dt><dd>${(w.tech || []).map(esc).join("<br>")}</dd></div>
           </dl>
           <div class="links">
             ${primary.map((l) => `<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}<span aria-hidden="true">↗</span></a>`).join("")}
