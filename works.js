@@ -42,7 +42,6 @@ window.WORKS = [
       { label: "ブラウザで遊ぶ", url: "https://yui-taro.github.io/action-takagi/play/", primary: true },
       { label: "Windows版（v1.0.0）", url: "https://github.com/yui-taro/action-takagi/releases/tag/v1.0.0" },
       { label: "配布ページ", url: "https://yui-taro.github.io/action-takagi/" },
-      { label: "GitHub", url: "https://github.com/yui-taro/action-takagi" },
     ],
     // ↓ 下書き。自分の言葉に直してください
     learned: "テストが全部通っていても、実際に遊ぶと攻撃が届かないことがある。仕組みは「動く」と「遊べる」の両方で確かめる必要があると学びました。",
@@ -68,8 +67,6 @@ window.WORKS = [
     thumb: "media/onegai-title.jpg",
     links: [
       { label: "Windows版を入手", url: "https://github.com/yui-taro/onegai-nete-game/releases", primary: true },
-      { label: "プレイ動画（2分42秒）", url: "https://github.com/yui-taro/onegai-nete-game/tree/main/%E5%8B%95%E7%94%BB" },
-      { label: "GitHub", url: "https://github.com/yui-taro/onegai-nete-game" },
     ],
     // ↓ 下書き。自分の言葉に直してください
     learned: "敵がいなくても、「何もしない」ことを操作にするだけで緊張は生まれる。演出と間で空気を作る大切さを学びました。",
@@ -95,7 +92,6 @@ window.WORKS = [
     thumb: "media/bonsai-title.jpg",
     links: [
       { label: "ブラウザで遊ぶ", url: "https://yui-taro.github.io/janken-bonsai/", primary: true },
-      { label: "GitHub", url: "https://github.com/yui-taro/janken-bonsai" },
     ],
     // ↓ 下書き。自分の言葉に直してください
     learned: "ライブラリを使わなくても、SVG と少しの JavaScript で「育っていく」表現が作れると学びました。",
@@ -121,7 +117,6 @@ window.WORKS = [
     thumb: "media/yuirpg-title.jpg",
     links: [
       { label: "ブラウザで遊ぶ", url: "https://yui-taro.github.io/yuiyuiRPG/", primary: true },
-      { label: "GitHub", url: "https://github.com/yui-taro/yuiyuiRPG" },
     ],
     // 流れ.md の「わかったこと」「次やること」から
     learned: "処理を分けると修正の範囲が減ること、最初に要件を整理するとスケジュールが立てやすいこと。デザインは、かっこよさだけでなく、見やすさや操作性など使う人の目線に立つ必要があると学びました。",
