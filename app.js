@@ -16,9 +16,7 @@ function youtubeId(url) {
 
 function renderFacts(works) {
   const dates = works.map((w) => w.date || "").filter(Boolean).sort();
-  const tech = [...new Set(works.flatMap((w) => w.tech || []).filter((t) => /^[A-Za-z]/.test(t) && t !== "Windows"))];
   document.getElementById("factCount").textContent = pad(works.length);
-  document.getElementById("factTech").textContent = tech.slice(0, 5).join(" / ");
   document.getElementById("factUpdated").textContent = dates.at(-1) || "";
   document.getElementById("heroYear").textContent = (dates.at(-1) || "").slice(0, 4);
 }
