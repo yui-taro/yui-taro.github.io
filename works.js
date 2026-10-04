@@ -92,7 +92,6 @@ window.WORKS = [
       { label: "ブラウザで遊ぶ", url: "https://yui-taro.github.io/janken-bonsai/", primary: true },
     ],
     // ↓ 下書き。自分の言葉に直してください
-    learned: "ライブラリを使わなくても、SVG と少しの JavaScript で「育っていく」表現が作れると学びました。",
     next: "スマホの縦画面でも遊べるレイアウトにすること。",
     theme: "bonsai",
   },
