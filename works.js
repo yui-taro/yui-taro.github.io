@@ -117,7 +117,7 @@ window.WORKS = [
     tech: ["JavaScript", "HTML", "CSS", "JSON"],
     date: "2026.07",
     youtube: "",
-    video: "",
+    video: "media/yuirpg.mp4",
     thumb: "media/yuirpg-title.jpg",
     links: [
       { label: "ブラウザで遊ぶ", url: "https://yui-taro.github.io/yuiyuiRPG/", primary: true },
