@@ -21,6 +21,29 @@
 */
 window.WORKS = [
   {
+    id: "kogitsune",
+    title: "こぎつねと冬の灯り",
+    kicker: "2.5Dステルスゲーム",
+    catch: "凍える弟妹のために、神社の灯籠を盗み出せ。",
+    about:
+      "凍える弟妹のために、子狐が山の神社の灯籠を盗み出す 2.5D ステルスゲームです。灯籠を守る狛犬が次に何をするかは、AI「Jev」が、狛犬が実際に見聞きした手掛かりだけをもとに選びます。ブラウザ・Mac・Windows で遊べます。",
+    points: [
+      "狛犬の次の一手を AI「Jev」に選ばせ、足跡・鈴・灯りなど、狛犬が実際に見聞きした手掛かりだけで判断するようにした",
+      "Blender で作った画を 2.5D の描画に使い、画風の比較を経て「立体のある絵本映画」の見た目にそろえた",
+      "初めて遊ぶ人のために、字幕と音声つきのプロローグと、操作を描いた説明画面を最初に入れた",
+    ],
+    tech: ["C++", "raylib", "Blender", "Jev"],
+    date: "2026.10",
+    youtube: "",
+    video: "media/kogitsune.mp4",
+    thumb: "media/kogitsune-title.jpg",
+    links: [
+      { label: "ブラウザで遊ぶ", url: "https://yui-taro.github.io/kogitsune-winter-light/", primary: true },
+      { label: "ダウンロード版（Mac / Windows）", url: "https://github.com/yui-taro/kogitsune-winter-light/releases/latest" },
+    ],
+    theme: "#2f5a8a",
+  },
+  {
     id: "chuka-taisen",
     title: "中華大戦",
     titleSub: "CHUKA TAISEN",
