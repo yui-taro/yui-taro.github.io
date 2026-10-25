@@ -36,13 +36,13 @@ window.WORKS = [
     tech: ["Claude Code", "TypeScript"],
     date: "2026.10",
     youtube: "",
-    video: "",
+    video: "media/uradori.mp4",
     thumb: "media/uradori-title.jpg",
     links: [
       { label: "ガイドを見る", url: "https://yui-taro.github.io/uradori/", primary: true },
       { label: "GitHub", url: "https://github.com/yui-taro/uradori" },
     ],
-    theme: "#b5523f",
+    theme: "#c3392d",
   },
   {
     id: "kogitsune",
