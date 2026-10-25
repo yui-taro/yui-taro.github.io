@@ -53,7 +53,7 @@ function renderCase(w, i) {
           <img src="${esc(w.thumb)}" alt="${esc(w.title)} の紹介動画" loading="lazy">
           <span class="play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span>
           <span class="play-label" aria-hidden="true">Play video</span>
-        </button>` : `<img class="still" src="${esc(w.thumb)}" alt="${esc(w.title)} のゲーム画面" loading="lazy">`}
+        </button>` : `<img class="still" src="${esc(w.thumb)}" alt="${esc(w.title)} の画面" loading="lazy">`}
       </div>
 
       <div class="case-body">

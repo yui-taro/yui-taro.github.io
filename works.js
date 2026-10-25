@@ -21,6 +21,30 @@
 */
 window.WORKS = [
   {
+    id: "uradori",
+    title: "ウラ取り",
+    titleSub: "URADORI",
+    kicker: "Claude Code の mod",
+    catch: "AIの「根拠あります」に、原文で検印を押す。",
+    about:
+      "Claude Code の mod です。Claude が回答の中で出典（プロジェクト内のファイルやウェブページ）を挙げると、mod 自身がその原文を読みに行き、主張と食い違っていないかを確かめます。結果は入力欄の上の帯に出て、原文の該当箇所を見ながら人が最終判断できます。",
+    points: [
+      "Claude が読んだ要約は使わず、ファイルやウェブページの原文を mod 自身が取りに行って照らし合わせる",
+      "判定は会話の履歴を持たない別のモデル呼び出しで行い、Claude と同じ思い込みを引き継がないようにした",
+      "食い違いが見つかると原文ポップアップが開き、［訂正させる］で原文の抜粋つきの訂正を Claude に頼める",
+    ],
+    tech: ["Claude Code", "TypeScript"],
+    date: "2026.10",
+    youtube: "",
+    video: "",
+    thumb: "media/uradori-title.jpg",
+    links: [
+      { label: "ガイドを見る", url: "https://yui-taro.github.io/uradori/", primary: true },
+      { label: "GitHub", url: "https://github.com/yui-taro/uradori" },
+    ],
+    theme: "#b5523f",
+  },
+  {
     id: "kogitsune",
     title: "こぎつねと冬の灯り",
     kicker: "2.5Dステルスゲーム",
@@ -93,6 +117,27 @@ window.WORKS = [
     learned: "高度なモデル生成を短期間で達成するには、それなりのツールが必要だと学びました。また、すべてをAIに任せた結果、間違った方向に進んでいることに気づくのが遅れました。",
     next: "モデル生成の技術を高めること。そして、実際にプレイしながら微調整をすること。",
     theme: "onegai",
+  },
+  {
+    id: "sorairo",
+    title: "Sorairo",
+    titleSub: "そらいろ時計",
+    kicker: "Macアプリ",
+    catch: "壁紙が透ける、くすみ水色の時計・天気・カレンダー。",
+    about:
+      "デスクトップに浮かぶ、時計・天気・カレンダーの Mac アプリです。背景は透明で、壁紙がそのまま透けます。操作はメニューバーの時計アイコンから行い、パネルはドラッグで好きな場所に置けます。",
+    points: [
+      "アナログ／デジタル、24時間表示、秒針、背景のぼかしをメニューバーからすぐ切り替えられる",
+      "天気は位置情報から現在地を取り、取れないときは保存済みの場所を使う。予定はカレンダーアプリから今日と明日の分を表示",
+      "配色をくすみ水色のパレットにまとめ、常駐アプリと macOS 純正ウィジェットで同じ見た目を使い回した",
+    ],
+    tech: ["Swift", "SwiftUI", "WidgetKit", "EventKit", "Open-Meteo"],
+    date: "2026.09",
+    youtube: "",
+    video: "",
+    thumb: "media/sorairo-title.jpg",
+    links: [],
+    theme: "#5b8299",
   },
   {
     id: "janken-bonsai",
